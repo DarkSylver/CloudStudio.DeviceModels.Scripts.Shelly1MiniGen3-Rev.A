@@ -20,11 +20,7 @@ function getEndpoints(deviceAddress, endpoints)
   // all endpoints included in the device automatically when the device
   // is created.
 
-  // In the code below, two endpoints are created. The first is a
-  // temperature sensor, while the second one is a carbon dioxide sensor.
-
   endpoints.addEndpoint("1", "Switch", endpointType.appliance);
-  // endpoints.addEndpoint("2", "CO2 sensor", endpointType.ppmConcentrationSensor, ppmConcentrationSensorSubType.carbonDioxide);
 }
 
 function validateDeviceAddress(address, result)
